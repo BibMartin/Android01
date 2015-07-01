@@ -21,12 +21,12 @@
         </activity>
 		
 		<receiver
-            android:name=".BluetoothReceiver"
+            android:name=".BluetoothConnectionReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.ACTION_ACL_CONNECTED" />
-				<action android:name="android.intent.action.ACTION_ACL_DISCONNECTED" />
+                <action android:name="android.bluetooth.device.action.ACL_CONNECTED" />
+				<action android:name="android.bluetooth.device.action.ACL_DISCONNECTED" />
             </intent-filter>
         </receiver>
 		

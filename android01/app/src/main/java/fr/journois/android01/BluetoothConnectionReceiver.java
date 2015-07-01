@@ -24,7 +24,7 @@ public class BluetoothConnectionReceiver extends BroadcastReceiver {
 			//Do something with bluetooth device connection
 			CharSequence text = "Connection!";
 			int duration = Toast.LENGTH_SHORT;
-			Toast toast = Toast.makeText(cc, text, duration);
+			Toast toast = Toast.makeText(context, text, duration);
 			toast.show();
 			//Toast
 			// TextView tv1 = (TextView)findViewById(R.id.tv1);
